@@ -54,6 +54,8 @@ class BaseController extends Controller
 			$title .= ' &ndash; ';
 		}
 		$title .= $this->admin->title;
+
+
 		$view->with('pageTitle', $title);
 		$view->with('adminTitle', $this->admin->title);
 	}

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\View;
+
 class AdminController extends BaseController
 {
     function indexView()
